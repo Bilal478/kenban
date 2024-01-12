@@ -1,0 +1,30 @@
+
+.login {
+  &__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  &__label {
+    margin-bottom: 6px;
+  }
+
+  &__input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  &__button {
+    padding: 10px;
+    background-color: #4caf50; 
+    color: white;
+    cursor: pointer;
+  }
+}
